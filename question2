@@ -1,0 +1,8 @@
+#Take Two number as input from the user and print their sum ,
+#diffrence , product , quotient .
+a = float(input("enter a value of a:"))
+b = float(input("enter a value of b:"))
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)

@@ -1,0 +1,5 @@
+#Take the radius (r) as user input and print the area.
+# use the formula : Area = 3.14 *r2
+radius = int(input("enter a value of r:"))
+Area = 3.14 *(radius**2)
+print("Area of radius is", Area)

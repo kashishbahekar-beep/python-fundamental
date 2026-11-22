@@ -1,0 +1,7 @@
+#Ask the user to enter two integers and one float .
+#convert them all to float and print their average
+a = float(input("enter a value of a:"))
+b = float(input("enter a value of b:"))
+c = float(input("enter a value of c:"))
+avg = (a + b + c)/3
+print("average of three number =" , avg)

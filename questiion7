@@ -1,0 +1,8 @@
+#Ask the user for a temperature in celcius (string input).
+#convert it into float , then calculate 
+#and print temperture in fahrenheit
+#conversion formula : fahrenheitTemp = (CelciusTemp *(9/5))+32.
+user_input = input("enter a temperature in Celcius:")
+Celcius_Temp= float(user_input)
+fahrenheit_Temp = (Celcius_Temp*(9/5))+32
+print("temperature in fahrenheit", fahrenheit_Temp)

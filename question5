@@ -1,0 +1,10 @@
+#Evaluate and print the result of the following expression 
+# x = 10 + 3 * 2 ** 2
+# Based on what you learnt in the lecture explain why output is what it is
+x = 10 + 3 * 2 ** 2 
+print(x)
+#explation 
+#in python ,operator precedences determine the execution order:
+#1. Exponentiation (**)has the highest priority,so 2**2 is calculate the first(4)
+#2.multiplication (*) is next ,so 3*4 is calculated(12)
+#3.addition(+) has the lowest priority , so 10 + 3 is calculate the(13)

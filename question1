@@ -1,0 +1,6 @@
+#Q1.write the program that ask the user for their name and age , then print a sentence like :
+#Hello shradha , you are 21 year old!
+username = input("enter your name:")
+age = input("enter your age:")
+print(f"Hello {username} , you are {age} year old!")
+print("Hello" , username +" ," , "you are" , age , "year old!")
